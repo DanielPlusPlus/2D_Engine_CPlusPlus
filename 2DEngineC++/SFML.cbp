@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SFML" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SFML" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SFML" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="E:/Programy/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="E:/Programy/SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="AnimatedObject.cpp" />
+		<Unit filename="AnimatedObject.h" />
+		<Unit filename="BitmapHandler.cpp" />
+		<Unit filename="BitmapHandler.h" />
+		<Unit filename="BitmapObject.cpp" />
+		<Unit filename="BitmapObject.h" />
+		<Unit filename="Circle.cpp" />
+		<Unit filename="Circle.h" />
+		<Unit filename="Circle4.cpp" />
+		<Unit filename="Circle4.h" />
+		<Unit filename="DrawableObject.cpp" />
+		<Unit filename="DrawableObject.h" />
+		<Unit filename="Ellipse4.cpp" />
+		<Unit filename="Ellipse4.h" />
+		<Unit filename="Engine.cpp" />
+		<Unit filename="Engine.h" />
+		<Unit filename="GameEngine2.cpp" />
+		<Unit filename="GameObject.cpp" />
+		<Unit filename="GameObject.h" />
+		<Unit filename="LineSegment.cpp" />
+		<Unit filename="LineSegment.h" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="Point2D.cpp" />
+		<Unit filename="Point2D.h" />
+		<Unit filename="PrimitiveRenderer.cpp" />
+		<Unit filename="PrimitiveRenderer.h" />
+		<Unit filename="PrimitiveRenderer2.cpp" />
+		<Unit filename="PrimitiveRenderer2.h" />
+		<Unit filename="Rectangle.cpp" />
+		<Unit filename="Rectangle.h" />
+		<Unit filename="ShapeObject.cpp" />
+		<Unit filename="ShapeObject.h" />
+		<Unit filename="SpriteObject.cpp" />
+		<Unit filename="SpriteObject.h" />
+		<Unit filename="TransformableObject.cpp" />
+		<Unit filename="TransformableObject.h" />
+		<Unit filename="Triangle.cpp" />
+		<Unit filename="Triangle.h" />
+		<Unit filename="UpdatableObject.cpp" />
+		<Unit filename="UpdatableObject.h" />
+		<Unit filename="cb.bmp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
